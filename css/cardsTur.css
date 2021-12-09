@@ -1,0 +1,57 @@
+.shoose-your-tour {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.shoose-your-tour__item {
+    width: 370px;
+    display: inline-block;
+    text-align: left;
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("./../images/cardsTour/put-v-goru.png") no-repeat;
+    border-radius: 40px;
+    padding: 50px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 300ms ease;
+}
+
+.shoose-your-tour__item:hover {
+    transform: scale(1.2);
+}
+
+.shoose-your-tour__title {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.shoose-your-tour__price {
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 277px;
+}
+
+.shoose-your-tour__more {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: background-color 300ms ease;
+}
+
+.shoose-your-tour__item:hover .shoose-your-tour__more {
+    background-color: #286562;
+}
+
+
+.shoose-your-tour__more span {
+    font-size: 23px;
+    margin-right: 16px;
+}
+
