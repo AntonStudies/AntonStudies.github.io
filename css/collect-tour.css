@@ -1,0 +1,18 @@
+.collect-tour {
+    text-align: center;
+}
+
+.collect-tour__title {
+    font-size: 59px;
+    margin-top: 107px;
+    margin-bottom: 33px;
+}
+
+.collect-tour__text {
+    width: 410px;
+    max-width: 410px;
+    font-size: 20px;
+    color: #A6A6A6;
+    margin: 0 auto;
+    line-height: 27px;
+}
