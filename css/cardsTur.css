@@ -1,8 +1,15 @@
 .shoose-your-tour {
+    width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
+}
+
+.shoose-your-tour__row {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
     gap: 30px;
-    margin-top: 106px;
+    padding-bottom: 30px;
 }
 
 .card-1 {
@@ -42,8 +49,8 @@
 }
 
 .shoose-your-tour__item {
-    width: 370px;
-    display: inline-block;
+    flex: 1 0 370px;
+    min-width: 370px;
     text-align: left;
     background-position: center;
     background-size: 100%;
