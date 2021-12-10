@@ -1,17 +1,50 @@
 .shoose-your-tour {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    margin-top: 106px;
+}
+
+.card-1 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("./../images/travels/travel-1.svg") no-repeat;
+}
+
+.card-2 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("./../images/travels/travel-2.svg") no-repeat;
+}
+
+.card-3 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("./../images/travels/travel-3.svg") no-repeat;
+}
+
+.card-4 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("./../images/travels/travel-4.svg") no-repeat;
+}
+
+.card-5 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("./../images/travels/travel-5.svg") no-repeat;
+}
+
+.card-6 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("./../images/travels/travel-6.svg") no-repeat;
 }
 
 .shoose-your-tour__item {
     width: 370px;
     display: inline-block;
     text-align: left;
-    background: 
-        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-        url("./../images/cardsTour/put-v-goru.png") no-repeat;
     background-position: center;
     background-size: 100%;
     border-radius: 50px;
@@ -19,24 +52,19 @@
     padding-bottom: 30px;
     color: #ffffff;
     cursor: pointer;
-    transform: scale(1);
-    transition: 
-        transform 300ms ease,
-        background-size 300ms ease;
+    transition: background-size 300ms ease;
 }
 
 .shoose-your-tour__item:hover {
     background-size: 120%;
-}
-
-.shoose-your-tour__item:hover {
-    transform: scale(1.2);
+    z-index: 10;
 }
 
 .shoose-your-tour__title {
     font-size: 35px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    line-height: 43px;
 }
 
 .shoose-your-tour__price {
@@ -50,9 +78,9 @@
     padding: 8px 20px;
     border-radius: 50px;
     margin-left: -20px;
+    margin-bottom: 12px;
     background-color: transparent;
     transition: background-color 300ms ease;
-    margin-bottom: 12px;
 }
 
 .shoose-your-tour__item:hover .shoose-your-tour__more {
