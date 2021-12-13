@@ -17,80 +17,141 @@
      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="shoose-your-tour__header">
-            <h2 class="shoose-your-tour__main-title">Выбери свой тур</h2>
-            <nav class="shoose-your-tour__nav">
-                <div class="shoose-your-tour__nav-item">Популярные</div>
-                <div class="shoose-your-tour__nav-item">Авторские</div>
-                <div class="shoose-your-tour__nav-item">Походы</div>
-                <div class="shoose-your-tour__nav-item">Сплавы</div>
-                <div class="shoose-your-tour__nav-item">Велопрогулки</div>
-            </nav>
+        <div class="container">
+            <div class="shoose-your-tour__header">
+                <h2 class="shoose-your-tour__main-title">Выбери свой тур</h2>
+                <nav class="shoose-your-tour__nav">
+                    <div class="shoose-your-tour__nav-item">Популярные</div>
+                    <div class="shoose-your-tour__nav-item">Авторские</div>
+                    <div class="shoose-your-tour__nav-item">Походы</div>
+                    <div class="shoose-your-tour__nav-item">Сплавы</div>
+                    <div class="shoose-your-tour__nav-item">Велопрогулки</div>
+                </nav>
+            </div>
+            <div class="shoose-your-tour">
+                <div class="shoose-your-tour__row">
+                    <div class="shoose-your-tour__item card-1">
+                        <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
+                        <div class="shoose-your-tour__price">от 80 000 руб</div>
+                        <div class="shoose-your-tour__more">
+                            <span>Подробнее</span>
+                            <img src="./icons/Vector.svg" alt="right arrow">
+                        </div>
+                    </div>
+                    <div class="shoose-your-tour__item card-2">
+                        <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
+                        <div class="shoose-your-tour__price">от 80 000 руб</div>
+                        <div class="shoose-your-tour__more">
+                            <span>Подробнее</span>
+                            <img src="./icons/Vector.svg" alt="right arrow">
+                        </div>
+                    </div>
+                    <div class="shoose-your-tour__item card-3">
+                        <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
+                        <div class="shoose-your-tour__price">от 80 000 руб</div>
+                        <div class="shoose-your-tour__more">
+                            <span>Подробнее</span>
+                            <img src="./icons/Vector.svg" alt="right arrow">
+                        </div>
+                    </div>
+                </div>
+                <div class="shoose-your-tour__row">
+                    <div class="shoose-your-tour__item card-4">
+                        <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
+                        <div class="shoose-your-tour__price">от 80 000 руб</div>
+                        <div class="shoose-your-tour__more">
+                            <span>Подробнее</span>
+                            <img src="./icons/Vector.svg" alt="right arrow">
+                        </div>
+                    </div>
+                    <div class="shoose-your-tour__item card-5">
+                        <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
+                        <div class="shoose-your-tour__price">от 80 000 руб</div>
+                        <div class="shoose-your-tour__more">
+                            <span>Подробнее</span>
+                            <img src="./icons/Vector.svg" alt="right arrow">
+                        </div>
+                    </div>
+                    <div class="shoose-your-tour__item card-6">
+                        <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
+                        <div class="shoose-your-tour__price">от 80 000 руб</div>
+                        <div class="shoose-your-tour__more">
+                            <span>Подробнее</span>
+                            <img src="./icons/Vector.svg" alt="right arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collect-tour">
+                <h2 class="collect-tour__title">Собери свой тур</h2>
+                <div class="collect-tour__text">
+                    Идейные соображения высшего порядка, а также рамки и место обучения кадров
+                </div>
+                <div class="collect-tour__form">
+                    <form>
+                        <div class="collect-tour__form-grid-content">
+                            <label for="name" class="collect-tour__form-name label">
+                                <span>Имя</span>
+                                <input type="text" name="name" id="name" placeholder="Введите Ваше имя">
+                            </label>
+                            <label for="direction" class="collect-tour__form-direction label">
+                                <span>Направление</span>
+                                <select name="direction" id="direction">
+                                    <option value="" disabled selected hidden>Куда хотите ехать</option>
+                                    <option value="selected item">Пункт выбран</option>
+                                </select>
+                            </label>
+                            <label for="email" class="collect-tour__form-email label">
+                                <span>Email</span>
+                                <input type="email" name="email" id="email" placeholder="example@mail.com">
+                            </label>
+                            <label for="phone" class="collect-tour__form-phone label">
+                                <span>Телефон</span>
+                                <input type="tel" name="phone" id="phone" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+                            </label>
+                            <label for="date-from" class="collect-tour__form-date-from label">
+                                <span>Дата от</span>
+                                <input type="text" name="date-from" id="date-from" placeholder="ДД.ММ.ГГГГ">
+                            </label>
+                            <label for="date-to" class="collect-tour__form-date-to label">
+                                <span>Дата до</span>
+                                <input type="text" name="date-to" id="date-to" placeholder="ДД.ММ.ГГГГ">
+                            </label>
+                            <label for="comment" class="collect-tour__form-comment label">
+                                <span>Комментарий</span>
+                                <textarea name="comment" id="comment"></textarea>
+                            </label>
+                            <div class="collect-tour__form-radio">
+                               <span>Вам есть 18 лет?</span>
+                               <div class="collect-tour__form-radio-flex">
+                                    <div class="radio-item">
+                                        <input type="radio" id="radio-yes" name="radio">
+                                        <label for="radio-yes" class="radio-label"></label>
+                                        <span>Да</span>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" id="radio-no" name="radio">
+                                        <label for="radio-no" class="radio-label"></label>
+                                        <span>Нет</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collect-tour__form-checkbox">
+                                <input type="checkbox" id="checkbox" name="checkbox">
+                                <label for="checkbox" class="checkbox-label">
+                                    <span class="checkbox"></span> 
+                                    <span class="checkbox-label__item">Нажимая кнопку, я принимаю условия <span class="agreement">Лицензионного договора</span></span>
+                                </label>
+                            </div>
+                            
+                        </div>  
+                        <div class="collect-tour__form-buttons">
+                            <button class="search-button">Найти тур</button>
+                            <button type="reset" class="reset-button">Сбросить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="shoose-your-tour">
-            <div class="shoose-your-tour__row">
-                <div class="shoose-your-tour__item card-1">
-                    <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
-                    <div class="shoose-your-tour__price">от 80 000 руб</div>
-                    <div class="shoose-your-tour__more">
-                        <span>Подробнее</span>
-                        <img src="./icons/Vector.svg" alt="right arrow">
-                    </div>
-                </div>
-                <div class="shoose-your-tour__item card-2">
-                    <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
-                    <div class="shoose-your-tour__price">от 80 000 руб</div>
-                    <div class="shoose-your-tour__more">
-                        <span>Подробнее</span>
-                        <img src="./icons/Vector.svg" alt="right arrow">
-                    </div>
-                </div>
-                <div class="shoose-your-tour__item card-3">
-                    <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
-                    <div class="shoose-your-tour__price">от 80 000 руб</div>
-                    <div class="shoose-your-tour__more">
-                        <span>Подробнее</span>
-                        <img src="./icons/Vector.svg" alt="right arrow">
-                    </div>
-                </div>
-            </div>
-            <div class="shoose-your-tour__row">
-                <div class="shoose-your-tour__item card-4">
-                    <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
-                    <div class="shoose-your-tour__price">от 80 000 руб</div>
-                    <div class="shoose-your-tour__more">
-                        <span>Подробнее</span>
-                        <img src="./icons/Vector.svg" alt="right arrow">
-                    </div>
-                </div>
-                <div class="shoose-your-tour__item card-5">
-                    <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
-                    <div class="shoose-your-tour__price">от 80 000 руб</div>
-                    <div class="shoose-your-tour__more">
-                        <span>Подробнее</span>
-                        <img src="./icons/Vector.svg" alt="right arrow">
-                    </div>
-                </div>
-                <div class="shoose-your-tour__item card-6">
-                    <h3 class="shoose-your-tour__title">Путешествие<br> в горы</h3>
-                    <div class="shoose-your-tour__price">от 80 000 руб</div>
-                    <div class="shoose-your-tour__more">
-                        <span>Подробнее</span>
-                        <img src="./icons/Vector.svg" alt="right arrow">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="collect-tour">
-            <h2 class="collect-tour__title">Собери свой тур</h2>
-            <div class="collect-tour__text">
-                Идейные соображения высшего порядка, а также рамки и место обучения кадров
-            </div>
-            <div class="collect-tour__form">
-                
-            </div>
-        </div>
-    </div>
 </body>
 </html>
