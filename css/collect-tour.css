@@ -2,13 +2,13 @@
     text-align: center;
 }
 
-.collect-tour__title {
+.title {
     font-size: 59px;
     margin-top: 106px;
     margin-bottom: 32px;
 }
 
-.collect-tour__text {
+.text {
     width: 410px;
     font-size: 20px;
     color: #A6A6A6;

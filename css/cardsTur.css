@@ -138,6 +138,11 @@
 }
 
 
+.shoose-your-tour__item:active .shoose-your-tour__more {
+    background-color: #EFA501;
+}
+
+
 .shoose-your-tour__more span {
     font-size: 23px;
     margin-right: 13px;
