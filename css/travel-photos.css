@@ -1,0 +1,101 @@
+.travel-photos,
+.travel-photos-header {
+    text-align: center;
+}
+
+.travel-photos__title {
+    margin-top: 135px;
+    line-height: 73px;
+}
+
+.travel-photos__photos {
+    width: 100%;
+    max-width: 1860px;
+    margin: 0 auto;
+}
+
+.travel-photos__grid-cols-4,
+.travel-photos__grid-cols-5 {
+   /* display: grid;*/
+    margin-bottom: 30px;
+    /*grid-column-gap: 30px;*/
+
+    display: flex;
+    gap: 30px;
+}
+ /*
+.travel-photos__grid-cols-4 {
+   grid-template-columns: repeat(4, 442px);
+}*/
+/*
+.travel-photos__grid-cols-5 {
+    grid-template-columns: repeat(5, 348px);
+}
+*/
+.travel-photo1 {
+    background: url("../images/travelPhotos/travel_photo-1.jpg") no-repeat;
+}
+
+.travel-photo2 {
+    background: url("../images/travelPhotos/travel_photo-2.jpg") no-repeat;
+}
+
+.travel-photo3 {
+    background: url("../images/travelPhotos/travel_photo-3.jpg") no-repeat;
+}
+
+.travel-photo4 {
+    background: url("../images/travelPhotos/travel_photo-4.jpg") no-repeat;
+}
+
+.travel-photo5 {
+    background: url("../images/travelPhotos/travel_photo-5.jpg") no-repeat;
+}
+
+.travel-photo6 {
+    background: url("../images/travelPhotos/travel_photo-6.jpg") no-repeat;
+}
+
+.travel-photo7 {
+    background: url("../images/travelPhotos/travel_photo-7.jpg") no-repeat;
+}
+
+.travel-photo8 {
+    background: url("../images/travelPhotos/travel_photo-8.jpg") no-repeat;
+}
+
+.travel-photo9 {
+    background: url("../images/travelPhotos/travel_photo-9.jpg") no-repeat;
+}
+
+.travel-photo10 {
+    background: url("../images/travelPhotos/travel_photo-10.jpg") no-repeat;
+}
+
+.travel-photo11 {
+    background: url("../images/travelPhotos/travel_photo-11.jpg") no-repeat;
+}
+
+.travel-photo12 {
+    background: url("../images/travelPhotos/travel_photo-12.jpg") no-repeat;
+}
+
+.travel-photo13 {
+    background: url("../images/travelPhotos/travel_photo-13.jpg") no-repeat;
+}
+
+.travel-photo {
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel-photos__grid-cols-4 .travel-photo {
+    flex: 1 0 442px;
+    height: 300px;
+}
+
+.travel-photos__grid-cols-5 .travel-photo {
+    flex: 1 0 348px;
+    height: 300px;
+}

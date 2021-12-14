@@ -123,7 +123,8 @@
     margin-bottom: 271px;
 }
 
-.shoose-your-tour__more {
+.shoose-your-tour__more,
+.travel-history__card-more {
     display: inline-block;
     padding: 8px 20px;
     border-radius: 50px;
@@ -133,17 +134,20 @@
     transition: background-color 300ms ease;
 }
 
-.shoose-your-tour__item:hover .shoose-your-tour__more {
+.shoose-your-tour__item:hover .shoose-your-tour__more,
+.travel-history__card:hover .travel-history__card-more {
     background-color: #286562;
 }
 
 
-.shoose-your-tour__item:active .shoose-your-tour__more {
+.shoose-your-tour__item:active .shoose-your-tour__more,
+.travel-history__card:active .travel-history__card-more {
     background-color: #EFA501;
 }
 
 
-.shoose-your-tour__more span {
+.shoose-your-tour__more span,
+.travel-history__card-more {
     font-size: 23px;
     margin-right: 13px;
 }
