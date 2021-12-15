@@ -199,6 +199,15 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
 
 .checkbox-label .agreement {
     color: #1B1F2B;
+    cursor: pointer;
+}
+
+.checkbox-label .agreement:hover {
+    text-decoration: underline;
+}
+
+.checkbox-label .agreement:active {
+    color: #286562;
 }
 
 /* -------------- BUTTONS FORM ----------------- */

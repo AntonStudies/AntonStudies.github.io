@@ -140,14 +140,14 @@
 }
 
 
-.shoose-your-tour__item:active .shoose-your-tour__more,
-.travel-history__card:active .travel-history__card-more {
+.shoose-your-tour__item .shoose-your-tour__more:active,
+.travel-history__card .travel-history__card-more:active {
     background-color: #EFA501;
 }
 
 
 .shoose-your-tour__more span,
-.travel-history__card-more {
+.travel-history__card-more span {
     font-size: 23px;
     margin-right: 13px;
 }
