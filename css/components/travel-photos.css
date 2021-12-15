@@ -3,8 +3,13 @@
     text-align: center;
 }
 
+.travel-photos-header {
+    margin-bottom: 1px;
+}
+
 .travel-photos__title {
     margin-top: 135px;
+    margin-bottom: 30px;
     line-height: 73px;
 }
 

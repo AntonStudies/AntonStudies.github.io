@@ -10,12 +10,13 @@
 }
 
 .text {
-    width: 410px;
+    font-family: RobotoR sans-serif;
+    width: 400px;
     font-size: 20px;
     color: #A6A6A6;
     margin: 0 auto;
-    padding-bottom: 101px;
-    line-height: 27px;
+    padding-bottom: 99px;
+    line-height: 28px;
 }
 
 /* ----------------- Form ----------------------- */
@@ -25,6 +26,10 @@
     background-color: #ffffff;
     padding: 70px;
     padding-top: 72px;
+}
+
+.collect-tour__form * {
+    font-family: RobotoR sans-serif;
 }
 
 .collect-tour__form-grid-content {
@@ -213,7 +218,7 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
 /* -------------- BUTTONS FORM ----------------- */
 .collect-tour__form-buttons {
     text-align: left;
-    margin-top: 23px;
+    margin-top: 24px;
 }
 
 .collect-tour__form-buttons button {

@@ -11,13 +11,13 @@
     padding-top: 27.88px;
 }
 
-.header__logo,
-.header__tel {
+.header__logo {
     margin-left: 1px;
 }
 
 .header__nav {
     margin-top: -3px;
+    margin-left: -2px;
 }
 
 .header__nav a ,
@@ -29,7 +29,7 @@
 
 .header__nav a {
     text-decoration: none;
-    margin-right: 45px;
+    margin-right: 48px;
 } 
 
 .header__nav a:hover {
@@ -42,25 +42,31 @@
 
 .header__tel {
     margin-top: -3px;
+    margin-right: 2px;
 }
 
 .header__content {
     text-align: center;
     padding: 119px 0;
-    padding-top: 115px;
+    padding-top: 116px;
 }
 
 .header__content-title {
     width: 760px;
-    font-size: 89px;
-    line-height: 106px;
+    font-family: RobotoB sans-serif;
+    font-size: 96px;
+    line-height: 109%;
     text-align: center;
-    letter-spacing: 6.5px;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: -3px;
-    padding-left: 6px;
+    margin-top: -1px;
+}
+
+.header__content-text,
+.header__content-button {
+    font-family: RobotoR sans-serif;
 }
 
 .header__content-text {
@@ -69,7 +75,7 @@
     line-height: 28px;
     color: #FFFFFF;
     margin: 0 auto;
-    margin-bottom: 49px;
+    margin-bottom: 50px;
 }
 
 .header__content-button {
@@ -81,6 +87,7 @@
     border-radius: 10px;
     border: 0;
     padding: 5px 20px;
+    padding-right: 20px;
     cursor: pointer;
     transition: 
         color 200ms ease,

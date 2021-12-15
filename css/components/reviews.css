@@ -4,13 +4,12 @@
 }
 
 .reviews__title {
-    font-size: 60px;
+    font-size: 59px;
     width: 529px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 136px;
-    line-height: 73.16px;
-    letter-spacing: -0.4px;
+    line-height: 73px;
 }
 
 .reviews__text,
@@ -19,8 +18,13 @@
     width: 418px;
 }
 
+.reviews__text {
+    margin-top: -2px;
+    padding-bottom: 101px;
+}
+
 .review:last-child p:last-child {
-    margin-top: 27px;
+    margin-top: 28px;
 }
 
 .reviews__content-grid {
@@ -40,12 +44,11 @@
 }
 
 .review__text p {
+    font-family: RobotoB sans-serif;
     font-size: 23px;
     font-weight: bold;
-    line-height: 122%;
+    line-height: 28px;
     color: #1B1F2B;
-    letter-spacing: 0.2px;
-    word-spacing: -1px;
 }
 
 .review__footer {
@@ -58,6 +61,7 @@
 }
 
 .review__name {
+    font-family: RobotoB sans-serif;
     font-size: 35px;
     font-weight: 500;
     line-height: 43px;
@@ -66,6 +70,7 @@
 }
 
 .review__tour-name {
+    font-family: RobotoR sans-serif;
     font-weight: normal;
     font-size: 17px;
     line-height: 24px;

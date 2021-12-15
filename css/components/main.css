@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: RobotoL sans-serif;
 }
 
 body {
@@ -13,4 +13,12 @@ body {
     width: 1170px;
     max-width: 1170px;
     margin: 0 auto;
+}
+
+h2 {
+    font-family: RobotoB sans-serif;
+}
+
+h3 {
+    font-family: RobotoR sans-serif;
 }
