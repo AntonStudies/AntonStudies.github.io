@@ -18,19 +18,19 @@
 .h-card1 {
     background: 
         linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%),
-        url("../images/travelHistory/travel-history-1.jpg") no-repeat;
+        url("../../images/travelHistory/travel-history-1.jpg") no-repeat;
 }
 
 .h-card2 {
     background: 
         linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%),
-        url("../images/travelHistory/travel-history-2.jpg") no-repeat;
+        url("../../images/travelHistory/travel-history-2.jpg") no-repeat;
 }
 
 .h-card3 {
     background: 
         linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%),
-        url("../images/travelHistory/travel-history-3.jpg") no-repeat;
+        url("../../images/travelHistory/travel-history-3.jpg") no-repeat;
 }
 
 @keyframes bg-size {

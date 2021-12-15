@@ -58,37 +58,37 @@
 .card-1 {
     background: 
         linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-        url("./../images/travels/travel-1.svg") no-repeat;
+        url("../../images/travels/travel-1.svg") no-repeat;
 }
 
 .card-2 {
     background: 
         linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-        url("./../images/travels/travel-2.svg") no-repeat;
+        url("../../images/travels/travel-2.svg") no-repeat;
 }
 
 .card-3 {
     background: 
         linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-        url("./../images/travels/travel-3.svg") no-repeat;
+        url("../../images/travels/travel-3.svg") no-repeat;
 }
 
 .card-4 {
     background: 
         linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-        url("./../images/travels/travel-4.svg") no-repeat;
+        url("../../images/travels/travel-4.svg") no-repeat;
 }
 
 .card-5 {
     background: 
         linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-        url("./../images/travels/travel-5.svg") no-repeat;
+        url("../../images/travels/travel-5.svg") no-repeat;
 }
 
 .card-6 {
     background: 
         linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
-        url("./../images/travels/travel-6.svg") no-repeat;
+        url("../../images/travels/travel-6.svg") no-repeat;
 }
 
 .shoose-your-tour__item {

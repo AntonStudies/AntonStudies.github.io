@@ -13,7 +13,7 @@
 
 .write-to-mail__photo {
     height: 370px;
-    background: url("../images/footer/footer-photo.jpg") no-repeat center / cover;
+    background: url("../../images/footer/footer-photo.jpg") no-repeat center / cover;
     border-radius: 50px;
 }
 
