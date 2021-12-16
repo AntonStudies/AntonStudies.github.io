@@ -1,3 +1,10 @@
+.travel-photos {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
 .travel-photos,
 .travel-photos-header {
     text-align: center;
@@ -96,11 +103,11 @@
 }
 
 .travel-photos__grid-cols-4 .travel-photo {
-    flex: 1 0 442px;
+    flex: 1 0 20%;
     height: 300px;
 }
 
 .travel-photos__grid-cols-5 .travel-photo {
-    flex: 1 0 348px;
+    flex: 1 0 10%;
     height: 300px;
 }

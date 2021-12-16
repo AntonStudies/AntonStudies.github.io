@@ -33,15 +33,6 @@
         url("../../images/travelHistory/travel-history-3.jpg") no-repeat;
 }
 
-@keyframes bg-size {
-    from {
-        background-size: 100%;
-    }
-    to {
-        background-size: 120%;
-    }
-}
-
 .travel-history__card {
     position: relative;
     width: 100%;
@@ -59,7 +50,6 @@
 
 .travel-history__card:hover {
     background-size: 150%;
-   /* animation: bg-size 300ms ease-in-out infinite;*/
 }  
 
 .travel-history__card:last-child {
@@ -88,7 +78,20 @@
 }
 
 .travel-history__card-pros li {
+    position: relative;
     margin-left: 30px;
+    list-style-type: none;
+}
+
+.travel-history__card-pros li::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    left: -17px;
+    top: 12px;
 }
 
 .travel-history__card-footer {
@@ -104,16 +107,16 @@
 }
 
 .travel-history__card-sn {
-    margin-top: -10px;
+    margin-top: -12px;
+    margin-right: 1px;
 }
 
 .travel-history__card-sn a {
-    font-family: RobotoR sans-serif;
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
-    line-height: 28px;
-    margin-right: 31px;
+    line-height: 28.4px;
+    margin-right: 33px;
 }
 
 .travel-history__card-sn a:active {
