@@ -44,7 +44,7 @@
     }
 
 
-    /* shoose your tour */
+    /* --------------- shoose your tour -------------------- */
     .shoose-your-tour__header {
         padding-bottom: 100px;
     }
@@ -53,9 +53,47 @@
         margin-bottom: 35px;
     }
 
+    .card-1 {
+        background: 
+            linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+            url("../../images/travels/1024/travel-card1\(1024px\).png") no-repeat;
+    }
+    
+    .card-2 {
+        background: 
+            linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+            url("../../images/travels/1024/travel-card2\(1024px\).png") no-repeat;
+    }
+    
+    .card-3 {
+        background: 
+            linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+            url("../../images/travels/1024/travel-card3\(1024px\).png") no-repeat;
+    }
+    
+    .card-4 {
+        background: 
+            linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+            url("../../images/travels/1024/travel-card4\(1024px\).png") no-repeat;
+    }
+    
+    .card-5 {
+        background: 
+            linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+            url("../../images/travels/1024/travel-card5\(1024px\).png") no-repeat;
+    }
+    
+    .card-6 {
+        background: 
+            linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+            url("../../images/travels/1024/travel-card6\(1024px\).png") no-repeat;
+    }
+
     .shoose-your-tour__item {
         flex: 0 1 450px;
         min-width: 450px;
+        background-position: center;
+        background-size: 100%;
     }
 
     .shoose-your-tour {
@@ -64,6 +102,10 @@
 
     .shoose-your-tour__price {
         margin-bottom: 314px;
+    }
+
+    .word-break {
+        word-break: keep-all;
     }
 
     /* ---------------- collect-tour FORM ----------------- */
