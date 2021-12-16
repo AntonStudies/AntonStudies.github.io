@@ -6,13 +6,14 @@
     font-size: 59px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 138px;
+    margin-top: 135px;
     margin-bottom: 30px;
     line-height: 73px
 }
 
 .travel-history__cards {
     margin-top: 1px;
+    max-width: 1170px;
 }
 
 .h-card1 {
@@ -96,7 +97,7 @@
 
 .travel-history__card-footer {
     position: absolute;
-    width: 1050px;
+    width: calc(100% - 120px);
     bottom: 60px;
     display: flex;
     flex-wrap: nowrap;

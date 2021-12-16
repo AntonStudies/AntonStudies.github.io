@@ -34,7 +34,6 @@
 
 .collect-tour__form-grid-content {
     display: grid;
-    grid-template-columns: repeat(2, 500px);
     text-align: left;
     grid-gap: 35px 30px;
 }

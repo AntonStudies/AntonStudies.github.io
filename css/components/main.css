@@ -42,4 +42,7 @@ h3 {
     width: 100%;
     flex-flow: row wrap;
     gap: 30px;
+    justify-content: center;
 }
+
+

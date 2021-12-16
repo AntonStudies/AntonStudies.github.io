@@ -1,0 +1,164 @@
+@import url('./components/fonts.css');
+@import url('./components/main.css');
+@import url('./components/header.css');
+@import url('./components/cardsTur.css');
+@import url('./components/collect-tour.css');
+@import url('./components/reviews.css');
+@import url('./components/travel-photos.css');
+@import url('./components/travel-history.css');
+@import url('./components/footer.css');
+
+@media screen and (max-width: 1024px) {
+
+    body,
+    .container {
+        width: 1030px;
+        max-width: 1030px;
+        margin: 0 auto;
+    }
+
+    .container {
+        padding: 0;
+        padding-right: 7px;
+    }
+
+    /*------ header -----------------*/
+    .header {
+        margin: 0 57px;
+    }
+
+    .header__logo {
+        margin-left: 0;
+    }
+
+    .header__nav a {
+        margin-right: 28px;
+    } 
+
+    .header__tel {
+        margin-right: 0;
+    }
+
+    .header__content-text {
+        width: 442px;
+    }
+
+
+    /* shoose your tour */
+    .shoose-your-tour__header {
+        padding-bottom: 100px;
+    }
+
+    .shoose-your-tour__main-title {
+        margin-bottom: 35px;
+    }
+
+    .shoose-your-tour__item {
+        flex: 0 1 450px;
+        min-width: 450px;
+    }
+
+    .shoose-your-tour {
+        gap: 18px;
+    }
+
+    .shoose-your-tour__price {
+        margin-bottom: 314px;
+    }
+
+    /* ---------------- collect-tour FORM ----------------- */
+    .collect-tour__form {
+        padding: 60px;
+        padding-top: 62px;
+    }
+
+    .collect-tour__form-grid-content {
+        grid-gap: 35px 20px;
+    }
+
+    .checkbox {
+        margin-right: 8px;
+    }
+    
+
+    /*------------------------ reviews ------------------------------*/
+    .reviews__content-grid {
+        grid-template-columns: repeat(2, 450px);
+        grid-column-gap: 18px;
+    }
+
+    .review__avatar {
+        margin-right: 17px;
+        margin-bottom: 1px;
+    }
+
+    .review {
+        height: 841px;
+    }
+
+    .collect-tour__form,
+    .reviews__content-grid,
+    .travel-history__cards {
+        margin: 0 53px;
+    }
+
+    /*------- travel photos ----- */
+    .travel-photos__grid-cols-4,
+    .travel-photos__grid-cols-5 {
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .travel-photo2,
+    .travel-photo7,
+    .travel-photo13 {
+        display: none;
+    }
+
+
+    /* travel history */
+    .h-card1 {
+        background: 
+            linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%),
+            url("../../images/travelHistory/1024px/travel-history-1\(1024px\).jpg") no-repeat;
+    }
+    
+    .h-card2 {
+        background: 
+            linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%),
+            url("../../images/travelHistory/1024px/travel-history-2\(1024px\).jpg") no-repeat;
+    }
+    
+    .h-card3 {
+        background: 
+            linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%),
+            url("../../images/travelHistory/1024px/travel-history-3\(1024px\).jpg") no-repeat;
+    }
+
+    .travel-history__card {
+        background-position: center;
+        background-size: 100%;
+        transition: background-size 300ms ease;
+    }
+    
+    .travel-history__card:hover {
+        background-size: 150%;
+    }  
+    /*------- footer ---------*/
+    .write-to-mail {
+        margin-left: 0;
+    }
+
+    .our-social-networks .container {
+        margin: 0;
+    }
+
+    .our-social-networks__flex {
+        padding: 0 53px;
+    }
+
+    
+.our-social-networks__links {
+    margin-right: 6px;
+}
+}
