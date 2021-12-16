@@ -5,14 +5,25 @@
     font-family: RobotoL sans-serif;
 }
 
-body {
-    background-color: #F9F7F4;
+@media screen and (max-width: 1280px) {
+    body {
+        width: 1280px;
+        max-width: 1280px;
+        margin: 0 auto;  
+    }
 }
 
 .container {
     width: 1280px;
     max-width: 1280px;
     margin: 0 auto;
+}
+
+body {
+    background-color: #F9F7F4;
+}
+
+.container {
     padding: 0 54px;
 }
 
@@ -22,4 +33,13 @@ h2 {
 
 h3 {
     font-family: RobotoR sans-serif;
+}
+
+.shoose-your-tour,
+.travel-photos__grid-cols-4,
+.travel-photos__grid-cols-5 {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    gap: 30px;
 }

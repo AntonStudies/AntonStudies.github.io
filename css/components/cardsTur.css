@@ -36,25 +36,7 @@
     border-bottom: 2px solid #1B1F2B;    
 }
 
-
-
-
 /* ---------- shoose your tour cards ------------------ */
-.shoose-your-tour {
-    display: flex;
-    width: 100%;
-    flex-flow: row wrap;
-    gap: 30px;
-}
-
-/*.shoose-your-tour__row {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 30px;
-    padding-bottom: 30px;
-}*/
-
 .card-1 {
     background: 
         linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),

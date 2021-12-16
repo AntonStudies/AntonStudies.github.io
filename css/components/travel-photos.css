@@ -1,6 +1,6 @@
 .travel-photos {
     width: 100%;
-    max-width: 1920px;
+    max-width: 1921px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -22,28 +22,15 @@
 
 .travel-photos__photos {
     width: 100%;
-    max-width: 1860px;
+    text-align: center;
     margin: 0 auto;
 }
 
 .travel-photos__grid-cols-4,
 .travel-photos__grid-cols-5 {
-   /* display: grid;*/
     margin-bottom: 30px;
-    /*grid-column-gap: 30px;*/
+}
 
-    display: flex;
-    gap: 30px;
-}
- /*
-.travel-photos__grid-cols-4 {
-   grid-template-columns: repeat(4, 442px);
-}*/
-/*
-.travel-photos__grid-cols-5 {
-    grid-template-columns: repeat(5, 348px);
-}
-*/
 .travel-photo1 {
     background: url("../../images/travelPhotos/travel_photo-1.jpg") no-repeat;
 }
@@ -97,17 +84,18 @@
 }
 
 .travel-photo {
+    min-height: 300px;
     border-radius: 50px;
     background-position: center;
     background-size: cover;
 }
 
 .travel-photos__grid-cols-4 .travel-photo {
-    flex: 1 0 20%;
-    height: 300px;
+    flex: 0 1 442.5px;
+    min-width: 442.5px;
 }
 
 .travel-photos__grid-cols-5 .travel-photo {
-    flex: 1 0 10%;
-    height: 300px;
+    flex: 0 1 347.5px;
+    min-width: 347.5px;
 }
