@@ -51,6 +51,13 @@
     padding-top: 116px;
 }
 
+.header__content-title,
+.header__content-text {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
 .header__content-title {
     width: 760px;
     font-family: RobotoB sans-serif;
@@ -58,9 +65,6 @@
     line-height: 109%;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin: 0 auto;
-    margin-bottom: 50px;
     margin-top: -1px;
 }
 
@@ -73,9 +77,6 @@
     width: 562px;
     font-size: 20px;
     line-height: 28px;
-    color: #FFFFFF;
-    margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .header__content-button {
