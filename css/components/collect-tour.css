@@ -189,7 +189,6 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
     margin-bottom: 5px;
 }
 
-
 .checkbox-label .agreement,
 .checkbox-label .checkbox-label__item {
     font-size: 17px;
