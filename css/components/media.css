@@ -502,19 +502,19 @@
     .h-card1 {
         background: 
             linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), 
-            url(../../images/travelHistory/360px/travel-history1\(360px\).png) no-repeat;
+            url("../../images/travelHistory/360px/travel-history1\(360px\).png") no-repeat;
     }
 
     .h-card2 {
         background: 
-            linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), 
-            url(../../images/travelHistory/360px/travel-history2\(360px\).png) no-repeat;
+            line"ar-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), 
+            url("../../images/travelHistory/360px/travel-history2\(360px\).png") no-repeat;
     }
 
     .h-card3 {
         background: 
             linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), 
-            url(../../images/travelHistory/360px/travel-history3\(360px\).png) no-repeat;
+            url("../../images/travelHistory/360px/travel-history3\(360px\).png") no-repeat;
     }
 
     .travel-history__card {
