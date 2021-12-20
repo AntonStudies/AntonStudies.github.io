@@ -8,7 +8,7 @@
 @import url('./components/travel-history.css');
 @import url('./components/footer.css');
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 361px) and (max-width: 1024px) {
 
     body,
     .container {
@@ -207,6 +207,10 @@
     .container {
         width: 370px;
         max-width: 370px;
+    }
+
+    .container {
+        padding: 0;
     }
 
     .collect-tour__form,
@@ -487,10 +491,13 @@
         gap: 10px;
     }
 
+    .travel-photo2,
     .travel-photo3,
     .travel-photo6,
-    .travel-photo12 {
-        display: none   ;
+    .travel-photo7,
+    .travel-photo12,
+    .travel-photo13 {
+        display: none;
     }
 
     /*---------- travel-history -------------------*/
