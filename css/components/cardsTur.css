@@ -2,14 +2,13 @@
 .shoose-your-tour__header {
     text-align: center;
     color: #1B1F2B;
-    padding-top: 135px;
     padding-bottom: 99px;
 }
 
 .shoose-your-tour__main-title {
     font-size: 59px;
     line-height: 73px;
-    margin-bottom: 36px;
+    margin-bottom: 36px !important;
 }
 
 .shoose-your-tour__nav {
