@@ -59,11 +59,9 @@
 }
 
 .header__content-title {
-    width: 760px;
     font-family: RobotoB sans-serif;
     font-size: 96px;
     line-height: 109%;
-    text-align: center;
     letter-spacing: 0.02em;
     margin-top: -1px;
 }
@@ -74,7 +72,6 @@
 }
 
 .header__content-text {
-    width: 562px;
     font-size: 20px;
     line-height: 28px;
 }
