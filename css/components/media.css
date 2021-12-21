@@ -12,19 +12,19 @@
 
     body,
     .container {
-        width: 1030px;
-        max-width: 1030px;
+        width: 64.375rem;
+        max-width: 64.375rem;
         margin: 0 auto;
     }
 
     .container {
         padding: 0;
-        padding-right: 7px;
+        padding-right: 0.4375rem;
     }
 
     /*------ header -----------------*/
     .header {
-        margin: 0 57px;
+        margin: 0 3.5625rem;
     }
 
     .header__logo {
@@ -32,25 +32,20 @@
     }
 
     .header__nav a {
-        margin-right: 28px;
+        margin-right: 1.75rem;
     } 
 
     .header__tel {
         margin-right: 0;
     }
 
-    /*.header__content-text {
-        width: 442px;
-    }*/
-
-
     /* --------------- shoose your tour -------------------- */
     .shoose-your-tour__header {
-        padding-bottom: 100px;
+        padding-bottom: 6.25rem;
     }
 
     .shoose-your-tour__main-title {
-        margin-bottom: 35px;
+        margin-bottom: 2.1875rem;
     }
 
     .card-1 {
@@ -90,61 +85,64 @@
     }
 
     .shoose-your-tour__item {
-        flex: 0 1 450px;
-        min-width: 450px;
+        flex: 0 1 28.125rem;
+        min-width: 28.125rem;
         background-position: center;
         background-size: 100%;
     }
 
     .shoose-your-tour {
-        gap: 18px;
+        gap: 1.125rem;
+    }
+
+    .shoose-your-tour__title {
+        width: auto;
     }
 
     .shoose-your-tour__price {
-        margin-bottom: 314px;
+        margin-bottom: 19.625rem;
     }
 
     /* ---------------- collect-tour FORM ----------------- */
     .collect-tour__form {
-        padding: 60px;
-        padding-top: 62px;
+        padding: 3.75rem;
+        padding-top: 3.875rem;
     }
 
     .collect-tour__form-grid-content {
-        grid-gap: 35px 20px;
+        grid-gap: 2.1875rem 1.25rem;
     }
 
     .checkbox {
-        margin-right: 8px;
+        margin-right: 0.5rem;
     }
     
 
     /*------------------------ reviews ------------------------------*/
     .reviews__content-grid {
-        grid-template-columns: repeat(2, 450px);
-        grid-column-gap: 18px;
-    }
-
-    .review__avatar {
-        margin-right: 17px;
-        margin-bottom: 1px;
+        gap: 1.125rem;
     }
 
     .review {
-        height: 841px;
+        flex: 1 0 28.125rem;
+    }
+
+    .review__avatar {
+        margin-right: 1.0625rem;
+        margin-bottom: 0.0625rem;
     }
 
     .collect-tour__form,
     .reviews__content-grid,
     .travel-history__cards {
-        margin: 0 53px;
+        margin: 0 3.3125rem;
     }
 
     /*------- travel photos ----- */
     .travel-photos__grid-cols-4,
     .travel-photos__grid-cols-5 {
-        padding: 0 20px;
-        gap: 20px;
+        padding: 0 1.25rem;
+        gap: 1.25rem;
     }
 
     .travel-photo2,
@@ -193,11 +191,11 @@
     }
 
     .our-social-networks__flex {
-        padding: 0 53px;
+        padding: 0 3.3125rem;
     }
 
     .our-social-networks__links {
-        margin-right: 6px;
+        margin-right: 0.375rem;
     }
 }
 
@@ -205,8 +203,8 @@
 
     body,
     .container {
-        width: 370px;
-        max-width: 370px;
+        width: 23.125rem;
+        max-width: 23.125rem;
     }
 
     .container {
@@ -217,12 +215,12 @@
     .reviews__content-grid,
     .travel-history__cards,
     .header {
-        margin: 0 21px;
+        margin: 0 1.3125rem;
     }
 
     /* -------------- header --------------- */
     .header__top {
-        padding: 33px 0;
+        padding: 2.0625rem 0;
     }
 
     .header__nav {
@@ -230,70 +228,69 @@
     }
 
     .header__logo img {
-        width: 133px;
+        width: 8.3125rem;
     }
 
     .header__content {
-        padding: 52px 0;
+        padding: 3.25rem 0;
     }
 
     .header__content-title,
     .header__content-text {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
 
     .header__tel,
     .header__content-text,
     .header__content-button {
-        font-size: 16px;
-        line-height: 23px;
+        font-size: 1rem;
+        line-height: 1.4375rem;
     }
 
     .header__content-title {
-        width: 323px;
-        font-size: 34px;
-        line-height: 38px;
+        font-size: 2.125rem;
+        line-height: 2.375rem;
     }
 
     .header__content-text {
-        width: 300px;
+        width: 18.75rem;
     }
 
 
     /*------ titles------------------- */
 
     .title {
-        font-size: 34px;
-        line-height: 38px;
-        margin-top: 75px;
-        margin-bottom: 30px;
+        font-size: 2.125rem;
+        line-height: 2.375rem;
+        margin-top: 4.6875rem;
+        margin-bottom: 1.875rem;
     }
     
     .text {
-        width: 340px;
-        font-size: 16px;
-        line-height: 23px;
-        padding-bottom: 50px;
+        width: 20.3125rem;
+        font-size: 1rem;
+        line-height: 142%;
+        padding-bottom: 3.125rem;
     }
 
     .shoose-your-tour__header {
         margin-top: 0;
         margin-bottom: 0;
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
     }
 
     .shoose-your-tour__main-title {
-        font-size: 34px;
-        line-height: 38px;
+        font-size: 2.125rem;
+        line-height: 112%;
         letter-spacing: 0.02em;
     }
 
     .shoose-your-tour__nav {
-        width: 320px;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 0.625rem;
+        padding: 0 1.4375rem;
     }
 
     .shoose-your-tour__nav-item {
@@ -305,49 +302,66 @@
     }
 
     .shoose-your-tour__item {
-        flex: 0 1 318px;
-        min-width: 318px;
-        margin: 0 21px;
-        padding: 25px;
+        flex: 0 1 19.875rem;
+        min-width: 19.875rem;
+        margin: 0 1.3125rem;
+        padding: 1.5625rem;
         border-radius: 20px;
     }
 
     .shoose-your-tour__title {
+        width: auto;
         font-weight: bold;
-        font-size: 23px;
-        line-height: 28px;
+        font-size: 1.4375rem;
+        line-height: 120%;
         letter-spacing: 0.04em;
-        margin-bottom: 13px;
+        margin-bottom: 0.8125rem;
     }
 
     .shoose-your-tour__price {
-        font-size: 16px;
-        line-height: 23px;
-        margin-bottom: 179.5px;
+        font-size: 1rem;
+        line-height: 142%;
+        margin-bottom: 11.2188rem;
     }
 
     .shoose-your-tour__more, 
     .travel-history__card-more {
-        margin-left: -20px;
-        margin-bottom: -15px;
+        margin-left: -1.25rem;
+        margin-bottom: -0.9375rem;
+    }
+
+    .shoose-your-tour__item .shoose-your-tour__more:active,
+    .travel-history__card .travel-history__card-more:active,
+    .travel-history__card:hover .travel-history__card-more,
+    .shoose-your-tour__item:hover .shoose-your-tour__more {
+        background-color: transparent;
+    }
+
+    .shoose-your-tour__item:active,
+    .shoose-your-tour__item:hover {
+        background-size: 100%;
     }
 
     .shoose-your-tour__more span, 
     .travel-history__card-more span {
-        font-size: 16px;
-        line-height: 23px;
+        font-size: 1rem;
+        line-height: 142%;
     }
 
     .shoose-your-tour__more img, 
     .travel-history__card-more img {
         vertical-align: middle;
-        margin-bottom: 2px;
+        margin-bottom: 0.125rem;
     }
 
     /*------------------- form --------------------*/
+    .collect-tour__text {
+        width: 20.3125rem;
+    }
+
     .collect-tour__form {
-        padding: 20px;
-        padding-bottom: 40px;
+        padding: 1.25rem;
+        padding-bottom: 2.5rem;
         border-radius: 30px;
     }
 
@@ -370,25 +384,25 @@
     .write-to-mail__text p,
     .our-social-networks__text,
     .our-social-networks__link a  {
-        font-size: 16px;
-        line-height: 23px;
+        font-size: 1rem;
+        line-height: 142%;
     }
 
     .collect-tour__form-grid-content input,
     .collect-tour__form-grid-content textarea,
     .collect-tour__form-grid-content select {
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .collect-tour__form-grid-content .label {
         width: 100%;
         display: inline-block;
         grid-gap: 0;
-        padding-bottom: 30px;
+        padding-bottom: 1.875rem;
     }
 
     .collect-tour__form-comment textarea {
-        height: 132px;
+        height: 8.25rem;
     }
 
     .checkbox-label {
@@ -398,39 +412,39 @@
     }
 
     .checkbox {
-        flex: 1 0 20px;
+        flex: 1 0 1.25rem;
     }
 
     .checkbox-label__item {
-        flex: 3 0 260px;
+        flex: 3 0 16.25rem;
     }
 
     .radio-label,
     .checkbox {
-        width: 20px;
-        height: 20px;
+        width: 1.25rem;
+        height: 1.25rem;
     }
 
     input[type="radio"]:checked ~ .radio-label::before {
-        top: 4px;
-        left: 4px;
-        width: 8px;
-        height: 8px;
+        top: 0.25rem;
+        left: 0.25rem;
+        width: 0.5rem;
+        height: 0.5rem;
     }
 
     input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after { 
-        background-size: 10.4px;
+        background-size: 0.65rem;
     }
 
     .collect-tour__form-radio {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .collect-tour__form-buttons {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        gap: 10px;
+        gap: 0.625rem;
     }
 
     .collect-tour__form-buttons .search-button {
@@ -439,13 +453,14 @@
 
     .collect-tour__form-buttons button,
     .collect-tour__form-buttons button[type="reset"] {
-        padding: 12px 30px;
+        padding: 0.75rem 1.875rem;
     }
 
 
     /*------------------- reviews ----------------------*/
     .reviews__title {
         width: auto;
+        padding: 0;
     }
 
     .reviews__content-grid {
@@ -454,41 +469,40 @@
 
     .review {
         height: auto;
-        margin-bottom: 18px;
-        padding: 20px;
-        border-radius: 20px;
+        margin-bottom: 1.125rem;
+        padding: 1.25rem;
+        border-radius: 1.25rem;
     }
 
     .review__text {
-        margin-bottom: 135px;
+        margin-bottom: 7.4375rem;
     }
 
     .review__name {
-        font-size: 23px;
-        line-height: 28px;
+        font-size: 1.4375rem;
+        line-height: 120%;
         letter-spacing: 0.04em;
     }
 
     .review__footer {
-        width: 92%;
         align-items: center;
-        bottom: 20px;
+        bottom: 1.25rem;
     }
 
     /*------------- travel-photos -----------------*/
     .travel-photo {
-        min-height: 110px;
+        min-height: 6.875rem;
         border-radius: 20px;
     }
 
     .travel-photos__grid-cols-4,
     .travel-photos__grid-cols-5 {
-        margin-bottom: 18px;
+        margin-bottom: 1.125rem;
     }
 
     .travel-photos__grid-cols-4:last-of-type,
     .travel-photos__grid-cols-5 {
-        gap: 10px;
+        gap: 0.625rem;
     }
 
     .travel-photo2,
@@ -502,7 +516,7 @@
 
     /*---------- travel-history -------------------*/
     .travel-history__title {
-        width: 300px;
+        padding: 0 0.625rem;
     }
 
     .h-card1 {
@@ -524,21 +538,21 @@
     }
 
     .travel-history__card {
-        height: 455px;
+        height: 28.4375rem;
         background-position: center;
         background-size: 100%;
         border-radius: 20px;
-        margin-bottom: 20px;
-        padding: 30px;
+        margin-bottom: 1.25rem;
+        padding: 1.875rem;
     }
 
     .travel-history__card-title {
-        width: 160px;
         font-weight: bold;
-        font-size: 23px;
-        line-height: 28px;
+        font-size: 1.4375rem;
+        line-height: 120%;
         letter-spacing: 0.04em;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
+        padding-right: 6.625rem;
     }
 
     .travel-history__card-sn {
@@ -548,34 +562,34 @@
     /*------------------ write-to-mail ---------------------*/
     .write-to-mail {
         flex-flow: column nowrap;
-        gap: 30px;
-        margin: 75px 0;
+        gap: 1.875rem;
+        margin: 4.6875rem 0;
         align-items: center;
         justify-content: center;
     }
 
     .write-to-mail__photo {
-        width: 130px;
-        height: 133px;
+        width: 8.125rem;
+        height: 8.3125rem;
         border-radius: 20px;
 
     }
 
     .write-to-mail__text h3 {
-        width: 250px;
+        width: 15.625rem;
         font-weight: bold;
-        font-size: 23px;
-        line-height: 28px;
+        font-size: 1.4375rem;
+        line-height: 120%;
         text-align: center;
         letter-spacing: 0.04em;
         margin: 0 auto;
-        margin-top: 30px;
-        margin-bottom: 20px;
+        margin-top: 1.875rem;
+        margin-bottom: 1.25rem;
     }
 
     .write-to-mail__text p {
         text-align: center;
-        width: 295px;
+        width: 18.4375rem;
         margin: 0 auto;
     }
 
@@ -587,8 +601,14 @@
     }
 
     .our-social-networks__links {
-        display: block;
-        width: 350px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        gap: 1.375rem;
+    }
+
+    .our-social-networks__link {
+        margin-left: 0;
     }
 
     .link-fb {
@@ -598,7 +618,7 @@
     .link-fb a,
     .link-insta a,
     .link-vk a {
-        margin-left: 7px;
+        margin-left: 0.4375rem;
     }
 
     .link-fb img,

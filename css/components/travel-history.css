@@ -3,17 +3,17 @@
 }
 
 .travel-history__title {
-    font-size: 59px;
+    font-size: 3.6875rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 135px;
-    margin-bottom: 30px;
-    line-height: 73px
+    margin-top: 8.4375rem;
+    margin-bottom: 1.875rem;
+    line-height: 124%;
 }
 
 .travel-history__cards {
-    margin-top: 1px;
-    max-width: 1170px;
+    margin-top: 0.0625rem;
+    max-width: 73.125rem;
 }
 
 .h-card1 {
@@ -37,10 +37,10 @@
 .travel-history__card {
     position: relative;
     width: 100%;
-    height: 567px;
+    height: 35.4375rem;
     text-align: left;
-    padding: 60px;
-    margin-bottom: 50px;
+    padding: 3.75rem;
+    margin-bottom: 3.125rem;
     border-radius: 50px;
     background-position: center;
     background-size: 100%;
@@ -60,64 +60,64 @@
 .travel-history__card-title {
     font-family: RobotoM sans-serif;
     font-weight: 500;
-    font-size: 35px;
-    line-height: 43px;
-    margin-bottom: 37px;
+    font-size: 2.1875rem;
+    line-height: 122%;
+    margin-bottom: 2.3125rem;
 }
 
 .travel-history__card-text,
 .travel-history__card-pros li {
     font-family: RobotoR sans-serif;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 142%;
 }
 
 .travel-history__card-text {
-    max-width: 560px;
-    margin-bottom: 28px;
+    max-width: 35rem;
+    margin-bottom: 1.75rem;
 }
 
 .travel-history__card-pros li {
     position: relative;
-    margin-left: 30px;
+    margin-left: 1.875rem;
     list-style-type: none;
 }
 
 .travel-history__card-pros li::before {
     content: "";
     position: absolute;
-    width: 4px;
-    height: 4px;
+    width: 0.25rem;
+    height: 0.25rem;
     background-color: #FFFFFF;
     border-radius: 50%;
-    left: -17px;
-    top: 12px;
+    left: -1.0625rem;
+    top: 0.75rem;
 }
 
 .travel-history__card-footer {
     position: absolute;
-    width: calc(100% - 120px);
-    bottom: 60px;
+    width: calc(100% - 7.5rem);
+    bottom: 3.75rem;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 107px;
-    margin-bottom: -20px;
+    margin-top: 6.6875rem;
+    margin-bottom: -1.25rem;
 }
 
 .travel-history__card-sn {
-    margin-top: -12px;
-    margin-right: 1px;
+    margin-top: -0.75rem;
+    margin-right: 0.0625rem;
 }
 
 .travel-history__card-sn a {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FFFFFF;
     text-decoration: none;
-    line-height: 28.4px;
-    margin-right: 33px;
+    line-height: 142%;
+    margin-right: 2.0625rem;
 }
 
 .travel-history__card-sn a:active {
