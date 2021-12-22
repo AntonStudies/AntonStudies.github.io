@@ -10,21 +10,24 @@
 
 @media screen and (min-width: 361px) and (max-width: 1024px) {
 
-    body,
+    /*body,
     .container {
         width: 64.375rem;
         max-width: 64.375rem;
         margin: 0 auto;
-    }
+    }*/
 
     .container {
+        width: 53.6458rem;
+        max-width: 53.6458rem;
+        margin: 0 auto;
         padding: 0;
-        padding-right: 0.4375rem;
+        padding-right: 0.3646rem;
     }
 
     /*------ header -----------------*/
     .header {
-        margin: 0 3.5625rem;
+        margin: 0 2.9688rem;
     }
 
     .header__logo {

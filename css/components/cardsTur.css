@@ -2,28 +2,28 @@
 .shoose-your-tour__header {
     text-align: center;
     color: #1B1F2B;
-    padding-bottom: 0.5156rem;
+    padding-bottom: 5.156rem;
 }
 
 .shoose-your-tour__main-title {
-    font-size: 0.3073rem;
+    font-size: 3.073rem;
     line-height: 124%;
-    margin-bottom: 0.1875rem !important;
+    margin-bottom: 1.875rem !important;
 }
 
 .shoose-your-tour__nav {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    gap: 0.1563rem;
+    gap: 1.563rem;
     margin: 0 auto;
 }
 
 .shoose-your-tour__nav-item {
     font-family: RobotoB sans-serif;
-    font-size: 0.1198rem;
+    font-size: 1.198rem;
     cursor: pointer;
-    padding-bottom: 0.0208rem;
+    padding-bottom: 0.208rem;
 }
 
 .shoose-your-tour__nav-item:first-child {
@@ -73,14 +73,14 @@
 }
 
 .shoose-your-tour__item {
-    flex: 0 1 1.9271rem;
-    min-width: 1.9271rem;
+    flex: 0 1 19.271rem;
+    min-width: 19.271rem;
     text-align: left;
     background-position: center;
     background-size: 100%;
     border-radius: 50px;
-    padding: 0.2604rem;
-    padding-bottom: 0.1563rem;
+    padding: 2.604rem;
+    padding-bottom: 1.563rem;
     color: #ffffff;
     cursor: pointer;
     transition: background-size 300ms ease;
@@ -92,27 +92,27 @@
 }
 
 .shoose-your-tour__title {
-    width: 1.1667rem;
+    width: 11.667rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.1823rem;
-    margin-bottom: 0.0938rem;
+    font-size: 1.823rem;
+    margin-bottom: 0.938rem;
     line-height: 122%;
 }
 
 .shoose-your-tour__price {
-    font-size: 0.0885rem;
+    font-size: 0.885rem;
     font-weight: lighter;
-    margin-bottom: 1.4115rem;
+    margin-bottom: 14.115rem;
 }
 
 .shoose-your-tour__more,
 .travel-history__card-more {
     display: inline-block;
-    padding: 0.0417rem 0.1042rem;
+    padding: 0.417rem 1.042rem;
     border-radius: 50px;
-    margin-left: -0.1042rem;
-    margin-bottom: 0.0625rem;
+    margin-left: -1.042rem;
+    margin-bottom: 0.625rem;
     background-color: transparent;
     transition: background-color 300ms ease;
 }
@@ -132,7 +132,7 @@
 .shoose-your-tour__more span,
 .travel-history__card-more span {
     font-family: RobotoM sans-serif;
-    font-size: 0.1198rem;
-    margin-right: 0.0677rem;
+    font-size: 1.198rem;
+    margin-right: 0.677rem;
 }
 

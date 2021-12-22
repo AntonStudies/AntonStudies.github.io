@@ -7,22 +7,24 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0.1504rem 0;
-    padding-top: 0.1452rem;
+    padding: 1.504rem 0;
+    padding-top: 1.452rem;
 }
 
 .header__logo {
-    margin-left: 0.0104rem;
+    margin-left: 0.104rem;
 }
 
 .header__nav {
-    margin-top: -0.0156rem;
-    margin-left: -0.0417rem;
+    display: flex;
+    column-gap: 50px;
+    margin-top: -0.156rem;
+    margin-left: -0.417rem;
 }
 
 .header__nav a ,
 .header__tel {
-    font-size: 0.1042rem;
+    font-size: 1.042rem;
     line-height: 142%;
     color: #FFFFFF;
 }
@@ -41,29 +43,30 @@
 }
 
 .header__tel {
-    margin-top: -0.0158rem;
-    margin-right: -0.0167rem;
+    margin-top: -0.158rem;
+    margin-right: -0.167rem;
 }
 
 .header__content {
     text-align: center;
-    padding: 0.6198rem 0;
-    padding-top: 0.6042rem;
+    padding: 6.198rem 0;
+    padding-top: 6.042rem;
 }
 
 .header__content-title,
 .header__content-text {
     margin: 0 auto;
-    margin-bottom: 0.2604rem;
+    margin-bottom: 2.604rem;
     color: #FFFFFF;
 }
 
 .header__content-title {
     font-family: RobotoB sans-serif;
-    font-size: 0.5rem;
+    font-size: 5rem;
     line-height: 109%;
-    letter-spacing: 0.02em;
-    margin-top: -0.0052rem;
+    letter-spacing: 2.1px;
+    margin-top: -0.052rem;
+    padding: 0 5.2083px;
 }
 
 .header__content-text,
@@ -72,19 +75,19 @@
 }
 
 .header__content-text {
-    font-size: 0.1042rem;
+    font-size: 1.042rem;
     line-height: 142%;
 }
 
 .header__content-button {
-    font-size: 0.0885rem;
+    font-size: 0.885rem;
     line-height: 142%;
     letter-spacing: -0.01em;
     color: #1B1F2B;
     background: #FFFFFF;
     border-radius: 10px;
     border: 0;
-    padding: 0.026rem 0.1042rem;
+    padding: 0.26rem 1.042rem;
     cursor: pointer;
     transition: 
         color 200ms ease,

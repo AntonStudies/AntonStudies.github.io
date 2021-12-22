@@ -4,23 +4,23 @@
 
 .title {
     text-align: center;
-    font-size: 0.3073rem;
-    margin-top: 0.7083rem;
-    margin-bottom: 0.1563rem;
+    font-size: 3.073rem;
+    margin-top: 7.083rem;
+    margin-bottom: 1.563rem;
 }
 
 .text {
     font-family: RobotoR sans-serif;
-    width: 2.1771rem;
-    font-size: 0.1042rem;
+    width: 21.771rem;
+    font-size: 1.042rem;
     color: #A6A6A6;
     margin: 0 auto;
-    padding-bottom: 0.5156rem;
+    padding-bottom: 5.156rem;
     line-height: 142%;
 }
 
 .collect-tour__text {
-    width: 2.1094rem;
+    width: 21.094rem;
 }
 
 /* ----------------- Form ----------------------- */
@@ -28,8 +28,8 @@
     width: auto;
     border-radius: 50px;
     background-color: #ffffff;
-    padding: 0.3646rem;
-    padding-top: 0.375rem;
+    padding: 3.646rem;
+    padding-top: 3.75rem;
 }
 
 .collect-tour__form * {
@@ -39,26 +39,26 @@
 .collect-tour__form-grid-content {
     display: grid;
     text-align: left;
-    grid-gap: 0.1823rem 0.1563rem;
+    grid-gap: 1.823rem 1.563rem;
 }
 
 .collect-tour__form-grid-content span {
     display: block;
-    font-size: 0.1042rem;
+    font-size: 1.042rem;
     font-weight: 400;
     color: #1B1F2B;
-    margin-bottom: 0.0521rem;
+    margin-bottom: 0.521rem;
 }
 
 .collect-tour__form-grid-content input,
 .collect-tour__form-grid-content textarea,
 .collect-tour__form-grid-content select {
     width: 100%;
-    font-size: 0.1042rem;
+    font-size: 1.042rem;
     border: 1px solid #F4F0E9;
     border-radius: 10px;
     background-color: #F9F7F4;
-    padding: 0.1094rem 0.099rem;
+    padding: 1.094rem 0.99rem;
     cursor: pointer;
     color: #1B1F2B;
 }
@@ -89,7 +89,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: #F9F7F4 url("../../icons/dropdown.svg") no-repeat right 0.1198rem top calc(50% + 0.0104rem);
+    background: #F9F7F4 url("../../icons/dropdown.svg") no-repeat right 1.198rem top calc(50% + 0.104rem);
 }
 
 .collect-tour__form-direction select {
@@ -97,11 +97,11 @@
 }
 
 .collect-tour__form-comment {
-    margin-bottom: -0.0104rem;
+    margin-bottom: -0.104rem;
 }
 
 .collect-tour__form-comment textarea {
-    height: 0.7969rem;
+    height: 7.969rem;
     resize: none;
 }
 
@@ -121,14 +121,14 @@ input[type="radio"] {
 }
 
 .radio-item:last-child {
-    margin-left: 0.1667rem;
+    margin-left: 1.667rem;
 }
 
 .radio-label {
     position: relative;
     display: inline-block;
-    width: 0.1354rem;
-    height: 0.1354rem;
+    width: 1.354rem;
+    height: 1.354rem;
     border: 2px solid #1B1F2B;
     border-radius: 50%;
     cursor: pointer;
@@ -137,29 +137,29 @@ input[type="radio"] {
 input[type="radio"]:checked ~ .radio-label::before {
     content: "";
     position: absolute;
-    top: 0.026rem;
-    left: 0.026rem;
-    width: 0.0625rem;
-    height: 0.0625rem;
+    top: 0.26rem;
+    left: 0.26rem;
+    width: 0.625rem;
+    height: 0.625rem;
     border-radius: 50%;
     background-color: #1B1F2B;
 }
 
 .collect-tour__form-radio {
-    margin-top: -0.0156rem;
-    margin-bottom: -0.0052rem;
+    margin-top: -0.156rem;
+    margin-bottom: -0.052rem;
 }
 
 .collect-tour__form-radio span {
     display: inline-block;
-    margin-left: 0.0573rem;
+    margin-left: 0.573rem;
     margin-bottom: 0;
 }
 
 .collect-tour__form-radio > span {
     display: block;
     margin-left: 0;
-    margin-bottom: 0.0573rem;
+    margin-bottom: 0.573rem;
 }
 
 /*--------- CHECKBOX FORM -----------------*/
@@ -170,13 +170,13 @@ input[type="checkbox"] {
 
 .checkbox {
     display: inline-block;
-    width: 0.1354rem;
-    height: 0.1354rem;
+    width: 1.354rem;
+    height: 1.354rem;
     border: 2px solid #1B1F2B;
     border-radius: 5px;
     cursor: pointer;
     vertical-align: middle;
-    margin-right: 0.0781rem;
+    margin-right: 0.781rem;
 }
 
 input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
@@ -185,17 +185,17 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
     width: 100%;
     height: 100%;
     background: url("../../icons/checkboxS.svg") no-repeat 50% 50%;
-    background-size: 0.075rem;
+    background-size: 0.75rem;
 }
 
 .collect-tour__form-checkbox span {
     display: inline-block;
-    margin-bottom: 0.026rem;
+    margin-bottom: 0.26rem;
 }
 
 .checkbox-label .agreement,
 .checkbox-label .checkbox-label__item {
-    font-size: 0.0885rem;
+    font-size: 0.885rem;
     line-height: 142%;
     letter-spacing: -0.01em;
 }
@@ -220,18 +220,18 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
 /* -------------- BUTTONS FORM ----------------- */
 .collect-tour__form-buttons {
     text-align: left;
-    margin-top: 0.125rem;
+    margin-top: 1.25rem;
 }
 
 .collect-tour__form-buttons button {
-    font-size: 0.1042rem;
-    padding: 0.0885rem 0.3698rem;
+    font-size: 1.042rem;
+    padding: 0.885rem 3.698rem;
     border: 0;
     border-radius: 10px;
 }
 
 .collect-tour__form-buttons button[type="reset"] {
-    padding: 0.0885rem 0.375rem;
+    padding: 0.885rem 3.75rem;
 }
 
 .collect-tour__form-buttons .search-button,
@@ -243,7 +243,7 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
     color: #FFFFFF;
     background-color: #286562;
     transition: background-color 0.2s ease;
-    margin-right: 0.1354rem;
+    margin-right: 1.354rem;
 }
 
 .collect-tour__form-buttons .reset-button {
