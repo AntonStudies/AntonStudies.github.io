@@ -111,11 +111,17 @@
     margin-left: 0.573rem;
 }
 
+.link-fb img {
+    width: 0.4167rem;
+}
+
 .link-insta img {
+    width: 0.7292rem;
     margin-bottom: -0.052rem;
 }
 
 .link-vk img {
+    width: 1.0417rem;
     margin-bottom: -0.156rem;
 }
 

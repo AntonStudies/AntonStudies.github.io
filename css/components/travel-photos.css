@@ -82,7 +82,7 @@
 }
 
 .travel-photo {
-    min-height: 300px;
+    min-height: 15.625rem;
     border-radius: 2.6042rem;
     background-position: center;
     background-size: cover;

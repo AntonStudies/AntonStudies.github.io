@@ -85,9 +85,9 @@
 }
 
 .ava-Maria {
-    background: url("../../icons/reviewers/review-Maria.svg") no-repeat;
+    background: url("../../icons/reviewers/review-Maria.svg") no-repeat center / cover;
 }
 
 .ava-Pavel {
-    background: url("../../icons/reviewers/review-Pavel.svg") no-repeat;
+    background: url("../../icons/reviewers/review-Pavel.svg") no-repeat center / cover;
 }
