@@ -5,8 +5,12 @@
 .title {
     text-align: center;
     font-size: 3.073rem;
-    margin-top: 7.083rem;
-    margin-bottom: 1.563rem;
+    margin-top: 7.0313rem;
+    margin-bottom: 1.6146rem;
+}
+
+.collect-tour__title {
+    margin-top: 7.0833rem;
 }
 
 .text {
@@ -89,7 +93,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: #F9F7F4 url("../../icons/dropdown.svg") no-repeat right 1.198rem top calc(50% + 0.104rem);
+    background: #F9F7F4 url("../../icons/dropdown.svg") no-repeat right 1.3021rem top calc(50% + 0.1563rem);
 }
 
 .collect-tour__form-direction select {
@@ -127,8 +131,8 @@ input[type="radio"] {
 .radio-label {
     position: relative;
     display: inline-block;
-    width: 1.354rem;
-    height: 1.354rem;
+    width: 1.3542rem;
+    height: 1.3542rem;
     border: 2px solid #1B1F2B;
     border-radius: 50%;
     cursor: pointer;
@@ -139,14 +143,14 @@ input[type="radio"]:checked ~ .radio-label::before {
     position: absolute;
     top: 0.26rem;
     left: 0.26rem;
-    width: 0.6932rem;
-    height: 0.6932rem;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: #1B1F2B;
 }
 
 .collect-tour__form-radio {
-    margin-top: -0.156rem;
+    margin-top: -0.2083rem;
     margin-bottom: -0.052rem;
 }
 
@@ -170,8 +174,8 @@ input[type="checkbox"] {
 
 .checkbox {
     display: inline-block;
-    width: 1.354rem;
-    height: 1.354rem;
+    width: 1.3542rem;
+    height: 1.3542rem;
     border: 2px solid #1B1F2B;
     border-radius: 0.2604rem;
     cursor: pointer;
@@ -220,7 +224,7 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
 /* -------------- BUTTONS FORM ----------------- */
 .collect-tour__form-buttons {
     text-align: left;
-    margin-top: 1.25rem;
+    margin-top: 1.1979rem;
 }
 
 .collect-tour__form-buttons button {
@@ -231,7 +235,7 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
 }
 
 .collect-tour__form-buttons button[type="reset"] {
-    padding: 0.885rem 3.75rem;
+    padding: 0.885rem 3.8021rem;
 }
 
 .collect-tour__form-buttons .search-button,

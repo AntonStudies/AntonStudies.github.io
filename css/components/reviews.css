@@ -14,7 +14,7 @@
 
 .reviews__text {
     margin-top: -0.104rem;
-    padding-bottom: 5.26rem;
+    padding-bottom: 5.3125rem;
 }
 
 .review:last-child p:last-child {
@@ -40,7 +40,7 @@
 }
 
 .review__text {
-    margin-bottom: 7.031rem;
+    margin-bottom: 7.5rem;
 }
 
 .review__text p {
@@ -82,6 +82,7 @@
     width: 3.906rem;
     height: 3.906rem;
     border-radius: 50%;
+    margin-right: 0.0521rem;
 }
 
 .ava-Maria {

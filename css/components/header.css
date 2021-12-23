@@ -23,8 +23,7 @@
 .header__nav {
     display: flex;
     column-gap: 2.6042rem;
-    margin-top: -0.156rem;
-    margin-left: -0.417rem;
+    margin-top: -0.256rem;
 }
 
 .header__nav a ,
@@ -36,7 +35,7 @@
 
 .header__nav a {
     text-decoration: none;
-    margin-right: 0.0208rem;
+    margin-right: 0.108rem;
 } 
 
 .header__nav a:hover {
@@ -45,23 +44,24 @@
 
 .header__nav a:last-child {
     margin-right: 0;
+    margin-right: 0.2083rem;
 }
 
 .header__tel {
-    margin-top: -0.158rem;
-    margin-right: -0.167rem;
+   margin-top: -0.2083rem;
+   padding-right: 0.2083rem;
 }
 
 .header__content {
     text-align: center;
     padding: 6.198rem 0;
-    padding-top: 6.042rem;
+    padding-top: 5.9375rem;
 }
 
 .header__content-title,
 .header__content-text {
     margin: 0 auto;
-    margin-bottom: 2.604rem;
+    margin-bottom: 2.6042rem;
     color: #FFFFFF;
 }
 

@@ -11,6 +11,10 @@
     line-height: 124%;
 }
 
+.travel-history__text {
+    padding-bottom: 5.1042rem;
+}
+
 .travel-history__cards {
     margin-top: 0.052rem;
     max-width: 60.938rem;
@@ -57,6 +61,8 @@
     margin-bottom: 0;
 }
 
+
+
 .travel-history__card-title {
     font-family: RobotoM sans-serif;
     font-weight: 500;
@@ -75,7 +81,7 @@
 
 .travel-history__card-text {
     max-width: 29.167rem;
-    margin-bottom: 1.458rem;
+    margin-bottom: 1.3542rem;
 }
 
 .travel-history__card-pros li {
@@ -117,7 +123,7 @@
     color: #FFFFFF;
     text-decoration: none;
     line-height: 142%;
-    margin-right: 1.719rem;
+    margin-right: 1.6667rem;
 }
 
 .travel-history__card-sn a:active {

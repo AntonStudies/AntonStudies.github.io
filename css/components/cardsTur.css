@@ -2,20 +2,25 @@
 .shoose-your-tour__header {
     text-align: center;
     color: #1B1F2B;
-    padding-bottom: 5.156rem;
+    padding-bottom: 5.2083rem;
+}
+
+.shoose-your-tour,
+.shoose-your-tour__header {
+    margin-left: -1px;
 }
 
 .shoose-your-tour__main-title {
     font-size: 3.073rem;
     line-height: 124%;
-    margin-bottom: 1.875rem !important;
+    margin-bottom: 1.8229rem !important;
 }
 
 .shoose-your-tour__nav {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    gap: 1.563rem;
+    gap: 1.6146rem; 
     margin: 0 auto;
 }
 
@@ -95,9 +100,10 @@
     width: 11.667rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.823rem;
-    margin-bottom: 0.938rem;
-    line-height: 122%;
+    font-size: 1.8229rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 0.9896rem;
+    line-height: 123%;
 }
 
 .shoose-your-tour__price {
@@ -112,7 +118,7 @@
     padding: 0.417rem 1.042rem;
     border-radius: 50px;
     margin-left: -1.042rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 0.5729rem;
     background-color: transparent;
     transition: background-color 300ms ease;
 }

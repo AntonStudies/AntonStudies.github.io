@@ -20,6 +20,10 @@
     line-height: 124%;
 }
 
+.travel-photos__text {
+    padding-bottom: 5.1042rem;
+}
+
 .travel-photos__grid-cols-4,
 .travel-photos__grid-cols-5 {
     display: flex;
@@ -82,7 +86,7 @@
 }
 
 .travel-photo {
-    min-height: 15.625rem;
+    min-height: 15.6771rem;
     border-radius: 2.6042rem;
     background-position: center;
     background-size: cover;

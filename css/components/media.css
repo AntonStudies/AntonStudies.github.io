@@ -11,7 +11,7 @@
 @media screen and (min-width: 361px) and (max-width: 1024px) {
 
     html {
-        font-size: 1.9vw;
+        font-size: 1.874vw;
     }
 
     .container {
@@ -27,12 +27,17 @@
         margin: 0 2.9688rem;
     }
 
+    .header__top {
+        margin-left: -1px;
+    }
+
     .header__logo {
         margin-left: 0;
     }
 
     .header__nav {
-        column-gap: 0;
+        column-gap: 0.2rem;
+        margin-left: 0.1042rem;
     }
 
     .header__nav a {
@@ -41,11 +46,28 @@
 
     .header__tel {
         margin-right: 0;
+        padding-right: 0;
+    }
+
+    .header__content-title {
+        margin-bottom: 2.6563rem;
+    }
+
+    .header__content-text {
+        padding: 0 11.4583rem;
+    }
+
+    .header__content-text pre {
+        display: none;
     }
 
     /* --------------- shoose your tour -------------------- */
     .shoose-your-tour__header {
         padding-bottom: 5.2083rem;
+    }
+
+    .shoose-your-tour {
+        margin-left: 0;
     }
 
     .shoose-your-tour__main-title {
@@ -108,6 +130,14 @@
     }
 
     /* ---------------- collect-tour FORM ----------------- */
+    .collect-tour__title {
+        margin-top: 7.1rem;
+    }
+
+    .collect-tour__text {
+        padding-bottom: 5.2rem;
+    }
+
     .collect-tour__form {
         padding: 3.125rem;
         padding-top: 3.2292rem;
@@ -129,6 +159,10 @@
 
     .review {
         flex: 1 0 23.4375rem;
+    }
+
+    .reviews__text {
+        padding-bottom: 5.24rem;
     }
 
     .review__avatar {
@@ -430,6 +464,7 @@
     .checkbox {
         width: 1.0417rem;
         height: 1.0417rem;
+        border-width: 1px;
     }
 
     input[type="radio"]:checked ~ .radio-label::before {
