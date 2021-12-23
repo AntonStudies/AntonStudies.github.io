@@ -10,12 +10,9 @@
 
 @media screen and (min-width: 361px) and (max-width: 1024px) {
 
-    /*body,
-    .container {
-        width: 64.375rem;
-        max-width: 64.375rem;
-        margin: 0 auto;
-    }*/
+    html {
+        font-size: 1.9vw;
+    }
 
     .container {
         width: 53.6458rem;
@@ -32,6 +29,10 @@
 
     .header__logo {
         margin-left: 0;
+    }
+
+    .header__nav {
+        column-gap: 0;
     }
 
     .header__nav a {
@@ -204,7 +205,6 @@
 
 @media screen and (max-device-width:  361px) {
 
-    body,
     .container {
         width: 19.2708rem;
         max-width: 19.2708rem;
