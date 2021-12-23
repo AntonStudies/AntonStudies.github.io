@@ -205,6 +205,10 @@
 
 @media screen and (max-device-width:  361px) {
 
+    html {
+        font-size: 5.2vw;
+    }
+
     .container {
         width: 19.2708rem;
         max-width: 19.2708rem;
@@ -279,11 +283,11 @@
     .shoose-your-tour__header {
         margin-top: 0;
         margin-bottom: 0;
-        padding-bottom: 3.125rem;
+        padding-bottom: 2.6042rem;
     }
 
     .shoose-your-tour__main-title {
-        font-size: 2.125rem;
+        font-size: 1.7708rem;
         line-height: 112%;
         letter-spacing: 0.02em;
     }
@@ -292,8 +296,8 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        gap: 0.625rem;
-        padding: 0 1.4375rem;
+        gap: 0.5208rem;
+        padding: 0 1.1979rem;
     }
 
     .shoose-your-tour__nav-item {
@@ -305,32 +309,32 @@
     }
 
     .shoose-your-tour__item {
-        flex: 0 1 19.875rem;
-        min-width: 19.875rem;
-        margin: 0 1.3125rem;
-        padding: 1.5625rem;
-        border-radius: 20px;
+        flex: 0 1 16.5625rem;
+        min-width: 16.5625rem;
+        margin: 0 1.0938rem;
+        padding: 1.3021rem;
+        border-radius: 1.0417rem;
     }
 
     .shoose-your-tour__title {
         width: auto;
         font-weight: bold;
-        font-size: 1.4375rem;
+        font-size: 1.1979rem;
         line-height: 120%;
         letter-spacing: 0.04em;
-        margin-bottom: 0.8125rem;
+        margin-bottom: 0.6771rem;
     }
 
     .shoose-your-tour__price {
-        font-size: 1rem;
+        font-size: 0.8333rem;
         line-height: 142%;
-        margin-bottom: 11.2188rem;
+        margin-bottom: 9.349rem;
     }
 
     .shoose-your-tour__more, 
     .travel-history__card-more {
-        margin-left: -1.25rem;
-        margin-bottom: -0.9375rem;
+        margin-left: -1.0417rem;
+        margin-bottom: -0.7813rem;
     }
 
     .shoose-your-tour__item .shoose-your-tour__more:active,
@@ -347,25 +351,25 @@
 
     .shoose-your-tour__more span, 
     .travel-history__card-more span {
-        font-size: 1rem;
+        font-size: 0.8333rem;
         line-height: 142%;
     }
 
     .shoose-your-tour__more img, 
     .travel-history__card-more img {
         vertical-align: middle;
-        margin-bottom: 0.125rem;
+        margin-bottom: 0.1042rem;
     }
 
     /*------------------- form --------------------*/
     .collect-tour__text {
-        width: 20.3125rem;
+        width: 16.9271rem;
     }
 
     .collect-tour__form {
-        padding: 1.25rem;
-        padding-bottom: 2.5rem;
-        border-radius: 30px;
+        padding: 1.0417rem;
+        padding-bottom: 2.0833rem;
+        border-radius: 1.5625rem;
     }
 
     .collect-tour__form-grid-content {
@@ -387,25 +391,25 @@
     .write-to-mail__text p,
     .our-social-networks__text,
     .our-social-networks__link a  {
-        font-size: 1rem;
+        font-size: 0.8333rem;
         line-height: 142%;
     }
 
     .collect-tour__form-grid-content input,
     .collect-tour__form-grid-content textarea,
     .collect-tour__form-grid-content select {
-        padding: 0.625rem;
+        padding: 0.5208rem;
     }
 
     .collect-tour__form-grid-content .label {
         width: 100%;
         display: inline-block;
         grid-gap: 0;
-        padding-bottom: 1.875rem;
+        padding-bottom: 1.5625rem;
     }
 
     .collect-tour__form-comment textarea {
-        height: 8.25rem;
+        height: 6.875rem;
     }
 
     .checkbox-label {
@@ -415,39 +419,39 @@
     }
 
     .checkbox {
-        flex: 1 0 1.25rem;
+        flex: 1 0 1.0417rem;
     }
 
     .checkbox-label__item {
-        flex: 3 0 16.25rem;
+        flex: 3 0 13.5417rem;
     }
 
     .radio-label,
     .checkbox {
-        width: 1.25rem;
-        height: 1.25rem;
+        width: 1.0417rem;
+        height: 1.0417rem;
     }
 
     input[type="radio"]:checked ~ .radio-label::before {
-        top: 0.25rem;
-        left: 0.25rem;
-        width: 0.5rem;
-        height: 0.5rem;
+        top: 0.2083rem;
+        left: 0.2083rem;
+        width: 0.4167rem;
+        height: 0.4167rem;
     }
 
     input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after { 
-        background-size: 0.65rem;
+        background-size: 0.5417rem;
     }
 
     .collect-tour__form-radio {
-        margin-bottom: 1.875rem;
+        margin-bottom: 1.5625rem;
     }
 
     .collect-tour__form-buttons {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        gap: 0.625rem;
+        gap: 0.5208rem;
     }
 
     .collect-tour__form-buttons .search-button {
@@ -456,7 +460,7 @@
 
     .collect-tour__form-buttons button,
     .collect-tour__form-buttons button[type="reset"] {
-        padding: 0.75rem 1.875rem;
+        padding: 0.625rem 1.5625rem;
     }
 
 
@@ -472,40 +476,40 @@
 
     .review {
         height: auto;
-        margin-bottom: 1.125rem;
-        padding: 1.25rem;
-        border-radius: 1.25rem;
+        margin-bottom: 0.9375rem;
+        padding: 1.0417rem;
+        border-radius: 1.0417rem;
     }
 
     .review__text {
-        margin-bottom: 7.4375rem;
+        margin-bottom: 6.1979rem;
     }
 
     .review__name {
-        font-size: 1.4375rem;
+        font-size: 1.1979rem;
         line-height: 120%;
         letter-spacing: 0.04em;
     }
 
     .review__footer {
         align-items: center;
-        bottom: 1.25rem;
+        bottom: 1.0417rem;
     }
 
     /*------------- travel-photos -----------------*/
     .travel-photo {
-        min-height: 6.875rem;
-        border-radius: 20px;
+        min-height: 5.7292rem;
+        border-radius: 1.0417rem;
     }
 
     .travel-photos__grid-cols-4,
     .travel-photos__grid-cols-5 {
-        margin-bottom: 1.125rem;
+        margin-bottom: 0.9375rem;
     }
 
     .travel-photos__grid-cols-4:last-of-type,
     .travel-photos__grid-cols-5 {
-        gap: 0.625rem;
+        gap: 0.5208rem;
     }
 
     .travel-photo2,
@@ -519,7 +523,7 @@
 
     /*---------- travel-history -------------------*/
     .travel-history__title {
-        padding: 0 0.625rem;
+        padding: 0 0.5208rem;
     }
 
     .h-card1 {
@@ -541,21 +545,21 @@
     }
 
     .travel-history__card {
-        height: 28.4375rem;
+        height: 23.6979rem;
         background-position: center;
         background-size: 100%;
-        border-radius: 20px;
-        margin-bottom: 1.25rem;
-        padding: 1.875rem;
+        border-radius: 1.0417rem;
+        margin-bottom: 1.0417rem;
+        padding: 1.5625rem;
     }
 
     .travel-history__card-title {
         font-weight: bold;
-        font-size: 1.4375rem;
+        font-size: 1.1979rem;
         line-height: 120%;
         letter-spacing: 0.04em;
-        margin-bottom: 1.25rem;
-        padding-right: 6.625rem;
+        margin-bottom: 1.0417rem;
+        padding-right: 5.5208rem;
     }
 
     .travel-history__card-sn {
@@ -565,34 +569,34 @@
     /*------------------ write-to-mail ---------------------*/
     .write-to-mail {
         flex-flow: column nowrap;
-        gap: 1.875rem;
-        margin: 4.6875rem 0;
+        gap: 1.5625rem;
+        margin: 3.9063rem 0;
         align-items: center;
         justify-content: center;
     }
 
     .write-to-mail__photo {
-        width: 8.125rem;
-        height: 8.3125rem;
-        border-radius: 20px;
+        width: 6.7708rem;
+        height: 6.9271rem;
+        border-radius: 1.0417rem;
 
     }
 
     .write-to-mail__text h3 {
-        width: 15.625rem;
+        width: 13.0208rem;
         font-weight: bold;
-        font-size: 1.4375rem;
+        font-size: 1.1979rem;
         line-height: 120%;
         text-align: center;
         letter-spacing: 0.04em;
         margin: 0 auto;
-        margin-top: 1.875rem;
-        margin-bottom: 1.25rem;
+        margin-top: 1.5625rem;
+        margin-bottom: 1.0417rem;
     }
 
     .write-to-mail__text p {
         text-align: center;
-        width: 18.4375rem;
+        width: 15.3646rem;
         margin: 0 auto;
     }
 
@@ -607,7 +611,7 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
-        gap: 1.375rem;
+        gap: 1.1458rem;
     }
 
     .our-social-networks__link {
@@ -621,7 +625,7 @@
     .link-fb a,
     .link-insta a,
     .link-vk a {
-        margin-left: 0.4375rem;
+        margin-left: 0.3646rem;
     }
 
     .link-fb img,
