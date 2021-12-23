@@ -12,12 +12,17 @@
 }
 
 .header__logo {
+    width: 9.4792rem;
     margin-left: 0.104rem;
+}
+
+.header__logo img {
+    width: 100%;
 }
 
 .header__nav {
     display: flex;
-    column-gap: 50px;
+    column-gap: 2.6042rem;
     margin-top: -0.156rem;
     margin-left: -0.417rem;
 }
@@ -85,7 +90,7 @@
     letter-spacing: -0.01em;
     color: #1B1F2B;
     background: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 0.5208rem;
     border: 0;
     padding: 0.26rem 1.042rem;
     cursor: pointer;

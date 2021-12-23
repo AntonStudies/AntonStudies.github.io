@@ -26,7 +26,7 @@
 /* ----------------- Form ----------------------- */
 .collect-tour__form {
     width: auto;
-    border-radius: 50px;
+    border-radius: 2.6042rem;
     background-color: #ffffff;
     padding: 3.646rem;
     padding-top: 3.75rem;
@@ -56,7 +56,7 @@
     width: 100%;
     font-size: 1.042rem;
     border: 1px solid #F4F0E9;
-    border-radius: 10px;
+    border-radius: 0.5208rem;
     background-color: #F9F7F4;
     padding: 1.094rem 0.99rem;
     cursor: pointer;
@@ -173,7 +173,7 @@ input[type="checkbox"] {
     width: 1.354rem;
     height: 1.354rem;
     border: 2px solid #1B1F2B;
-    border-radius: 5px;
+    border-radius: 0.2604rem;
     cursor: pointer;
     vertical-align: middle;
     margin-right: 0.781rem;
@@ -227,7 +227,7 @@ input[type="checkbox"]:checked ~ label[for="checkbox"] .checkbox::after {
     font-size: 1.042rem;
     padding: 0.885rem 3.698rem;
     border: 0;
-    border-radius: 10px;
+    border-radius: 0.5208rem;
 }
 
 .collect-tour__form-buttons button[type="reset"] {
