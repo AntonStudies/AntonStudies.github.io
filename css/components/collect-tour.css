@@ -94,9 +94,6 @@
     -moz-appearance: none;
     appearance: none;
     background: #F9F7F4 url("../../icons/dropdown.svg") no-repeat right 1.3021rem top calc(50% + 0.1563rem);
-}
-
-.collect-tour__form-direction select {
     color: #A6A6A6;
 }
 

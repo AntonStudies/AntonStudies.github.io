@@ -14,12 +14,16 @@
         font-size: 1.874vw;
     }
 
+    .bg-header {
+        background: url("../../images/header/1024/background-header\(1024px\).jpg") no-repeat center / cover;
+    }
+
     .container {
         width: 53.6458rem;
         max-width: 53.6458rem;
         margin: 0 auto;
         padding: 0;
-        padding-right: 0.3646rem;
+        padding-right: 0.346rem;
     }
 
     /*------ header -----------------*/
@@ -32,7 +36,7 @@
     }
 
     .header__logo {
-        margin-left: 0;
+        margin-left: 0.0521rem;
     }
 
     .header__nav {
@@ -67,7 +71,8 @@
     }
 
     .shoose-your-tour {
-        margin-left: 0;
+        margin-left: 1px;
+        gap: 0.9375rem;
     }
 
     .shoose-your-tour__main-title {
@@ -117,16 +122,17 @@
         background-size: 100%;
     }
 
-    .shoose-your-tour {
-        gap: 0.9375rem;
-    }
-
     .shoose-your-tour__title {
         width: auto;
     }
 
     .shoose-your-tour__price {
         margin-bottom: 16.3542rem;
+    }
+
+    .shoose-your-tour__more span,
+    .travel-history__card-more span {
+        margin-right: 0.5729rem;
     }
 
     /* ---------------- collect-tour FORM ----------------- */
@@ -147,8 +153,16 @@
         grid-gap: 1.8229rem 1.0417rem;
     }
 
+    .collect-tour__form-direction select {
+        background: #F9F7F4 url("../../icons/dropdown.svg") no-repeat right 1.1542rem top calc(50% + 0.163rem);
+    }
+
+    .radio-item:last-child {
+        margin-left: 1.6146rem;
+    }
+
     .checkbox {
-        margin-right: 0.4167rem;
+        margin-right: 0.3646rem;
     }
     
 
@@ -189,6 +203,30 @@
         display: none;
     }
 
+    .travel-photo1 {
+        background: url('../../images/travelPhotos/1024/travel_photo-1\(1024px\).png') no-repeat;
+    }
+
+    .travel-photo3 {
+        background: url('../../images/travelPhotos/1024/travel_photo-3\(1024px\).png') no-repeat;
+    }
+
+    .travel-photo4 {
+        background: url('../../images/travelPhotos/1024/travel_photo-4\(1024px\).png') no-repeat;
+    }
+
+    .travel-photo5 {
+        background: url('../../images/travelPhotos/1024/travel_photo-5\(1024px\).png') no-repeat;
+    }
+
+    .travel-photo9 {
+        background: url('../../images/travelPhotos/1024/travel_photo-9\(1024px\).png') no-repeat;
+    }
+
+    .travel-photo10 {
+        background: url('../../images/travelPhotos/1024/travel_photo-10\(1024px\).png') no-repeat;
+    }
+
 
     /* ---------travel history ----------*/
     .h-card1 {
@@ -210,6 +248,7 @@
     }
 
     .travel-history__card {
+        height: 29.544rem;
         background-position: center;
         background-size: 100%;
         transition: background-size 300ms ease;
@@ -224,8 +263,13 @@
         margin-left: 0;
     }
 
+
     .our-social-networks .container {
         margin: 0;
+    }
+
+    .our-social-networks {
+        margin-left: -1px;
     }
 
     .our-social-networks__flex {
@@ -233,7 +277,7 @@
     }
 
     .our-social-networks__links {
-        margin-right: 0.3125rem;
+        margin-right: 0.21rem;
     }
 }
 
@@ -559,6 +603,10 @@
     /*---------- travel-history -------------------*/
     .travel-history__title {
         padding: 0 0.5208rem;
+    }
+
+    .travel-history__text {
+        padding-bottom: 5.2083rem;
     }
 
     .h-card1 {
