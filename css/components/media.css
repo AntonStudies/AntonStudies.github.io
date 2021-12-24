@@ -227,6 +227,10 @@
         background: url('../../images/travelPhotos/1024/travel_photo-10\(1024px\).png') no-repeat;
     }
 
+    .travel-photo {
+        background-position: center;
+        background-size: cover;
+    }
 
     /* ---------travel history ----------*/
     .h-card1 {
@@ -281,18 +285,19 @@
     }
 }
 
-@media screen and (max-device-width:  361px) {
+@media screen and (max-width:  360px) {
 
     html {
-        font-size: 5.2vw;
+        font-size: 5.22vw;
+    }
+
+    .bg-header {
+        background: url("../../images/header/360/background_header\(360px\).jpg") no-repeat center / cover;
     }
 
     .container {
         width: 19.2708rem;
         max-width: 19.2708rem;
-    }
-
-    .container {
         padding: 0;
     }
 
@@ -300,7 +305,8 @@
     .reviews__content-grid,
     .travel-history__cards,
     .header {
-        margin: 0 1.0938rem;
+        margin: -0.2083rem 1.0938rem;
+        margin-bottom: 0;
     }
 
     /* -------------- header --------------- */
@@ -314,10 +320,12 @@
 
     .header__logo img {
         width: 6.9271rem;
+        margin-left: 0;
     }
 
     .header__content {
-        padding: 2.7083rem 0;
+        padding: 2.61rem 0;
+        padding-bottom: 2.85rem;
     }
 
     .header__content-title,
@@ -335,19 +343,32 @@
     .header__content-title {
         font-size: 1.7708rem;
         line-height: 1.9792rem;
+        letter-spacing: 1px;
+        margin-bottom: 2.25rem;
     }
 
     .header__content-text {
+        font-size: 0.8333rem;
         width: 15.625rem;
+        line-height: 142%;
+        letter-spacing: 0.2px;
+        margin-bottom: 2.15rem;
     }
 
+    .header__content-text pre {
+        display: none;
+    }
+
+    .header__content-button {
+        padding: 0.26rem 1.12rem;
+    }
 
     /*------ titles------------------- */
 
     .title {
         font-size: 1.7708rem;
         line-height: 1.9792rem;
-        margin-top: 3.9063rem;
+        margin-top: 4rem;
         margin-bottom: 1.5625rem;
     }
     
@@ -367,7 +388,8 @@
     .shoose-your-tour__main-title {
         font-size: 1.7708rem;
         line-height: 112%;
-        letter-spacing: 0.02em;
+        letter-spacing: 1px;
+        margin-bottom: 1.65rem !important;
     }
 
     .shoose-your-tour__nav {
@@ -375,6 +397,7 @@
         flex-flow: row wrap;
         justify-content: center;
         gap: 0.5208rem;
+        column-gap: 0.7rem;
         padding: 0 1.1979rem;
     }
 
@@ -394,12 +417,18 @@
         border-radius: 1.0417rem;
     }
 
+    .shoose-your-tour, 
+    .travel-photos__grid-cols-4, 
+    .travel-photos__grid-cols-5 {
+        gap: 0.9375rem;
+    }
+
     .shoose-your-tour__title {
         width: auto;
         font-weight: bold;
-        font-size: 1.1979rem;
+        font-size: 1.18rem;
         line-height: 120%;
-        letter-spacing: 0.04em;
+        letter-spacing: 1.5px;
         margin-bottom: 0.6771rem;
     }
 
