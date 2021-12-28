@@ -23,7 +23,7 @@
 .header__nav {
     display: flex;
     column-gap: 2.6042rem;
-    margin-top: -0.256rem;
+    padding-bottom: 4px;
 }
 
 .header__nav a ,
